@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'flashcard.apps.FlashcardConfig',
-    'collection.apps.CollectionConfig'
 ]
 
 MIDDLEWARE = [

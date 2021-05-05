@@ -7,7 +7,7 @@ class FlashcardSerializer(serializers.ModelSerializer):
     class Meta:
         model = Flashcard
         fields = [
-            'id', 'collection', 'card_word', 'card_definition',
+            'id', 'collection', 'card_question', 'card_answer',
         ]
 
 class CollectionSerializer(serializers.ModelSerializer):

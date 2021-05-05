@@ -7,5 +7,5 @@ class Collection(models.Model):
 
 class Flashcard(models.Model):
     collection = models.ForeignKey(Collection, on_delete=models.CASCADE, verbose_name='collection id')
-    card_word = models.CharField(max_length=50)
-    card_definition = models.CharField(max_length=100)
+    card_question = models.CharField(max_length=120)
+    card_answer = models.CharField(max_length=120)

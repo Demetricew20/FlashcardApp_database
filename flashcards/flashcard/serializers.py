@@ -14,5 +14,5 @@ class CollectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Collection
         fields = [
-            'id', 'collection_name', 'card',
+            'id', 'collection_name',
         ]
